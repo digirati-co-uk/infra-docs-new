@@ -1,0 +1,8 @@
+site_name: "infra-docs"
+site_description: "Documentation for internal Digirati Infrastructure"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

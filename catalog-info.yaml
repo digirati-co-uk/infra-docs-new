@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "infra-docs"
+  description: "Documentation for internal Digirati Infrastructure"
+  annotations:
+    github.com/project-slug: digirati-co-uk/infra-docs-new
+    backstage.io/techdocs-ref: url:https://github.com/digirati-co-uk/infra-docs-new
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "digirati-co-uk/digirati-ops"
